@@ -1,6 +1,6 @@
 html {
   font-family: sans-serif;
-  font-size: 21px;
+  font-size: 18px;
 }
 @media screen and (max-width: 32em) {
   html {
@@ -11,7 +11,7 @@ html {
 .container {
   box-sizing: border-box;
   margin: 0 auto;
-  max-width: 24em;
+  max-width: 32em;
   padding: 0.667em 0.167em 0;
 }
 
@@ -37,7 +37,12 @@ h3 {
 }
 
 p {
-  line-height: 1.4em;
+  line-height: 1.618em;
+}
+@media screen and (max-width: 400px) {
+  p {
+    line-height: 1.4em;
+  }
 }
 
 a {
@@ -83,5 +88,6 @@ footer p {
   max-width: 5em;
 }
 #tldr {
+  font-size: 1.2em;
   text-align: right;
 }
